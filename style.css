@@ -3,18 +3,6 @@
  * CSS FILE
  */
 
- .sr-only {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  white-space: nowrap;
-  border-width: 0;
-}
-
 html {
   font-size: 1.2rem;
 }
@@ -22,9 +10,11 @@ html {
 body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: #F2E8CF;
+  color:#386641;
   display: flex;
   justify-content: space-between;
   flex-direction: column;
+
 }
 
 header {
@@ -33,11 +23,17 @@ header {
   justify-content: space-between;
   align-items: center;
   background-color: #386641;
-  
+  color:#F2E8CF;
+}
+
+h2{
+  color: #F2E8CF;
+  font-size: auto;
 }
 
 header .header--banner--logo {
   height: 2.2rem;
+  padding-right: 0.6rem;
 }
 
 header .header--banner--nav ul {
@@ -46,7 +42,11 @@ header .header--banner--nav ul {
   list-style-type: none;
   margin: 0px;
   padding: 0px;
-  
+}
+
+header nav.header--banner--nav {
+  margin-left: auto;
+  margin-right: 1rem;
 }
 
 header nav.header--banner--nav ul li a {
@@ -73,3 +73,54 @@ h1 {
   text-align: center;
   color: #023047;
 }
+
+
+
+footer {
+  padding: 0.6rem 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #6A994E; /* Keep the current background color */
+  color: #f1faee; /* Keep the current text color */
+}
+
+footer .footer--nav ul {
+  display: flex;
+  gap: 2rem;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer nav.footer--nav {
+  margin-left: auto;
+  margin-right: 1rem;
+}
+
+footer .footer--nav ul li a {
+  font-size: 0.8rem; /* Reduce the font size */
+  text-decoration: none;
+  font-weight: 900;
+  color: #F2E8CF;
+}
+
+footer nav.footer--nav ul li a:hover {
+  color: #fffaee;
+  text-decoration: underline;
+  font-weight: 1000;
+}
+
+.footer--nav-push {
+  margin-left: auto;
+}
+
+footer .targeth2 {
+  font-size: 1rem;
+}
+
+footer .footer--logo {
+  height: 1.8rem;
+  padding-right: 0.5rem;
+}
+
