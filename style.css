@@ -31,7 +31,6 @@ header {
 h2{
   color: #F2E8CF;
   font-size: auto;
-  padding: 15px;
 
 }
 
@@ -177,8 +176,19 @@ main img {
   
 }
 
-
-
+main .btn{
+  display: block;
+  background-color: #251605;
+  color:#F2E8CF;
+  border-radius: 3rem;
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: none;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  width: 200px;
+}
 
 
 
