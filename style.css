@@ -17,6 +17,8 @@ body {
 
 }
 
+/*layout for header
+*/
 header {
   padding: 2rem 1rem;
   display: flex;
@@ -62,8 +64,86 @@ header nav.header--banner--nav ul li a:hover {
   font-weight: 1000;
 }
 
+/*Layout main flexbox
+*/
+
+main .tennis-three {
+  display: flex;
+
+}
+
+/*layout for rafael card
+*/
+.rafael {
+  padding: 0;
+  width: 500px;
+  max-width: 80%;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: #F2E8CF;
+  color: #386641;
+  border-radius: 20px;
+  box-shadow: #b08968 0px 8px 40px;
+}
+
+.rafael-content {
+  height: 750px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+/*layout for roger card
+*/
 
 
+
+/*
+.federer {
+  padding: 0;
+  width: 500px;
+  max-width: 80%;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: #ede0d4;
+  color: #7f5539;
+  border-radius: 20px;
+  box-shadow: #b08968 0px 8px 40px;
+}
+
+.federer-content {
+  height: 750px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+/*layout for novak card
+*/
+/*
+.djokovic {
+  padding: 0;
+  width: 500px;
+  max-width: 80%;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: #ede0d4;
+  color: #7f5539;
+  border-radius: 20px;
+  box-shadow: #b08968 0px 8px 40px;
+}
+
+.djokovic-content {
+  height: 750px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+*/
 
 
 
@@ -71,18 +151,30 @@ h1 {
   font-size: 2rem;
   font-weight: bold;
   text-align: center;
-  color: #023047;
+  color: #386641;
+}
+
+.intro-text {
+  margin-top: 10px;
+  text-align: center;
 }
 
 
+
+
+
+
+
+/*layout for footer
+*/
 
 footer {
   padding: 0.6rem 1rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #6A994E; /* Keep the current background color */
-  color: #f1faee; /* Keep the current text color */
+  background-color: #6A994E;
+  color: #f1faee;
 }
 
 footer .footer--nav ul {
@@ -99,7 +191,7 @@ footer nav.footer--nav {
 }
 
 footer .footer--nav ul li a {
-  font-size: 0.8rem; /* Reduce the font size */
+  font-size: 0.8rem;
   text-decoration: none;
   font-weight: 900;
   color: #F2E8CF;
@@ -123,4 +215,3 @@ footer .footer--logo {
   height: 1.8rem;
   padding-right: 0.5rem;
 }
-
