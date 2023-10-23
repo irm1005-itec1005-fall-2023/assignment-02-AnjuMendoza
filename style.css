@@ -76,8 +76,9 @@ main .tennis-three {
 */
 .rafael {
   padding: 0;
-  width: 500px;
+  width: 450px;
   max-width: 80%;
+  height: 650px;
   margin: 0 auto;
   margin-top: 50px;
   margin-bottom: 50px;
@@ -88,7 +89,6 @@ main .tennis-three {
 }
 
 .rafael-content {
-  height: 750px;
   display: flex;
   flex-direction: column;
   justify-content: start;
@@ -96,25 +96,21 @@ main .tennis-three {
 
 /*layout for roger card
 */
-
-
-
-/*
 .federer {
   padding: 0;
-  width: 500px;
+  width: 450px;
   max-width: 80%;
+  height: 650px;
   margin: 0 auto;
   margin-top: 50px;
   margin-bottom: 50px;
-  background-color: #ede0d4;
-  color: #7f5539;
+  background-color: #F2E8CF;
+  color: #386641;
   border-radius: 20px;
   box-shadow: #b08968 0px 8px 40px;
 }
 
 .federer-content {
-  height: 750px;
   display: flex;
   flex-direction: column;
   justify-content: start;
@@ -122,28 +118,31 @@ main .tennis-three {
 
 /*layout for novak card
 */
-/*
 .djokovic {
   padding: 0;
-  width: 500px;
-  max-width: 80%;
+  width: 450px;
+  max-width: auto;
+  height: 650px;
   margin: 0 auto;
   margin-top: 50px;
   margin-bottom: 50px;
-  background-color: #ede0d4;
-  color: #7f5539;
+  background-color: #F2E8CF;
+  color: #386641;
   border-radius: 20px;
   box-shadow: #b08968 0px 8px 40px;
 }
 
-.djokovic-content {
-  height: 750px;
+.dokovic-content {
   display: flex;
   flex-direction: column;
   justify-content: start;
 }
 
+/*target h2 for names
 */
+.name {
+  color: #251605;
+}
 
 
 
